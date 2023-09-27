@@ -2,7 +2,7 @@
 #include "problem3.h"
 
 
-Triangle* getLarger(const Triangle* first, const Triangle* second)
+Triangle* getLarger(Triangle* first, Triangle* second)
 {
   Triangle* t;
 

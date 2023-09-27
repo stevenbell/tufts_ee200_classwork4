@@ -12,6 +12,6 @@ typedef struct {
   Point c;
 } Triangle;
 
-Triangle* getLarger(const Triangle* first, const Triangle* second);
+Triangle* getLarger(Triangle* first, Triangle* second);
 
 #endif

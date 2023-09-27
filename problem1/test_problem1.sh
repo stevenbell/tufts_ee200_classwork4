@@ -8,6 +8,10 @@
 
 echo "10 + 5" | ./problem1
 
+# You can check the results with the following scripting magic:
+result=`echo "1 + 2" | ./problem1`
+if [ "$result" != "3" ]; then echo "Test failed, expected \"3\" but got \"$result\"."; fi
+
 # Add more test cases as necessary
 
 
